@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  jupyter:
+    image: jupyter/tensorflow-notebook
+    container_name: dako-k22
+    volumes:
+      - type: bind
+        source: ./notebooks
+        target: /home/jovyan/notebooks # jovyan is the default user
+    ports:
+      - 8888:8888
+    command: "start-notebook.sh --ServerApp.token=''"
+
