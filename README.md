@@ -12,7 +12,7 @@ The data used is from [Kaggle Titanic ML Competition](https://www.kaggle.com/com
 
 ## Development environment
 
-There is a `docker-compose.yml` file for those who want to use Docker as their development environment. Our project file `notebooks/dako-gw-grp2.ipynb` is available there, but feel free to use it outside of Docker as well.
+There is a `docker-compose.yml` file for those who want to use Docker as their development environment. Our project file `notebooks/DAKO Spring 2022 - Team Work.ipynb` is available there, but feel free to use it outside of Docker as well.
 
 The Docker environment can be started simply with `docker-compose -up` and stopped with `^c`.
 
