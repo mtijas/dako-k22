@@ -130,3 +130,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# datasets
+notebooks/data/gender_submission.csv
+notebooks/data/test.csv
+notebooks/data/train.csv
+
